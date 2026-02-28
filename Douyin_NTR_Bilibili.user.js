@@ -1,17 +1,15 @@
 // ==UserScript==
-// @name         抖音，一键三连！
-// @namespace    yangyu-dotcom
+// @name         抖音一键三连
+// @namespace    https://github.com/你的GitHub用户名  // 改成你的GitHub地址（规范）
 // @version      1.0
-// @description  给抖音也加上一键三连XD
-// @author       萤火FyrGlow
-// @homepage     https://space.bilibili.com/266986139
-// @match        https://www.douyin.com/
-// @match        https://www.douyin.com/?recommend=1
-// @require      https://github.com/yangyu-dotcom/brilliant-ideas-master/blob/main/KV.js
-// @icon         https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/favicon.png
-// @run-at       document-start
+// @description  给抖音加上一键三连功能
+// @author       你的名字
+// @match        https://www.douyin.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=douyin.com
+// @require      https://cdn.jsdelivr.net/gh/yangyu-dotcom/brilliant-ideas-master@master/KV.js  // 关键：用jsDelivr代理KV.js
+// @downloadURL  https://raw.githubusercontent.com/yangyu-dotcom/brilliant-ideas-master/master/Douyin_NTR_Bilibili.user.js  // 自动下载地址
+// @updateURL    https://raw.githubusercontent.com/yangyu-dotcom/brilliant-ideas-master/master/Douyin_NTR_Bilibili.user.js  // 自动更新地址
 // @grant        none
-// @license      CC BY-NC
 // ==/UserScript==
 
 (function () {
@@ -348,4 +346,5 @@
 
     App.init();
 })();
+
 
