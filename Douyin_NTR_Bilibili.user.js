@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         抖音，一键三连！
-// @namespace    FyrGlow.BiliBili
+// @namespace    yangyu-dotcom
 // @version      1.0
 // @description  给抖音也加上一键三连XD
 // @author       萤火FyrGlow
 // @homepage     https://space.bilibili.com/266986139
 // @match        https://www.douyin.com/
 // @match        https://www.douyin.com/?recommend=1
-// @require      https://gitee.com/ASev/brilliant-ideas/raw/master/KV.js
+// @require      https://github.com/yangyu-dotcom/brilliant-ideas-master/blob/main/KV.js
 // @icon         https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/favicon.png
 // @run-at       document-start
 // @grant        none
@@ -348,3 +348,4 @@
 
     App.init();
 })();
+
